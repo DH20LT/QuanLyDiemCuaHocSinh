@@ -1,0 +1,32 @@
+C:\Users\taqua\source\repos\OPPwithC-Sharp\DiemHocSinh\bin\Debug\net5.0\DiemHocSinh.exe
+C:\Users\taqua\source\repos\OPPwithC-Sharp\DiemHocSinh\bin\Debug\net5.0\DiemHocSinh.deps.json
+C:\Users\taqua\source\repos\OPPwithC-Sharp\DiemHocSinh\bin\Debug\net5.0\DiemHocSinh.runtimeconfig.json
+C:\Users\taqua\source\repos\OPPwithC-Sharp\DiemHocSinh\bin\Debug\net5.0\DiemHocSinh.runtimeconfig.dev.json
+C:\Users\taqua\source\repos\OPPwithC-Sharp\DiemHocSinh\bin\Debug\net5.0\DiemHocSinh.dll
+C:\Users\taqua\source\repos\OPPwithC-Sharp\DiemHocSinh\bin\Debug\net5.0\ref\DiemHocSinh.dll
+C:\Users\taqua\source\repos\OPPwithC-Sharp\DiemHocSinh\bin\Debug\net5.0\DiemHocSinh.pdb
+C:\Users\taqua\source\repos\OPPwithC-Sharp\DiemHocSinh\obj\Debug\net5.0\DiemHocSinh.csproj.AssemblyReference.cache
+C:\Users\taqua\source\repos\OPPwithC-Sharp\DiemHocSinh\obj\Debug\net5.0\DiemHocSinh.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\taqua\source\repos\OPPwithC-Sharp\DiemHocSinh\obj\Debug\net5.0\DiemHocSinh.AssemblyInfoInputs.cache
+C:\Users\taqua\source\repos\OPPwithC-Sharp\DiemHocSinh\obj\Debug\net5.0\DiemHocSinh.AssemblyInfo.cs
+C:\Users\taqua\source\repos\OPPwithC-Sharp\DiemHocSinh\obj\Debug\net5.0\DiemHocSinh.csproj.CoreCompileInputs.cache
+C:\Users\taqua\source\repos\OPPwithC-Sharp\DiemHocSinh\obj\Debug\net5.0\DiemHocSinh.dll
+C:\Users\taqua\source\repos\OPPwithC-Sharp\DiemHocSinh\obj\Debug\net5.0\ref\DiemHocSinh.dll
+C:\Users\taqua\source\repos\OPPwithC-Sharp\DiemHocSinh\obj\Debug\net5.0\DiemHocSinh.pdb
+C:\Users\taqua\source\repos\OPPwithC-Sharp\DiemHocSinh\obj\Debug\net5.0\DiemHocSinh.genruntimeconfig.cache
+C:\Users\taqua\OneDrive\Programming Project\C-Sharp\DiemHocSinh\obj\Debug\net5.0\DiemHocSinh.csproj.AssemblyReference.cache
+C:\Users\taqua\OneDrive\Programming Project\C-Sharp\DiemHocSinh\obj\Debug\net5.0\DiemHocSinh.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\taqua\OneDrive\Programming Project\C-Sharp\DiemHocSinh\obj\Debug\net5.0\DiemHocSinh.AssemblyInfoInputs.cache
+C:\Users\taqua\OneDrive\Programming Project\C-Sharp\DiemHocSinh\obj\Debug\net5.0\DiemHocSinh.AssemblyInfo.cs
+C:\Users\taqua\OneDrive\Programming Project\C-Sharp\DiemHocSinh\obj\Debug\net5.0\DiemHocSinh.csproj.CoreCompileInputs.cache
+C:\Users\taqua\OneDrive\Programming Project\C-Sharp\DiemHocSinh\bin\Debug\net5.0\DiemHocSinh.exe
+C:\Users\taqua\OneDrive\Programming Project\C-Sharp\DiemHocSinh\bin\Debug\net5.0\DiemHocSinh.deps.json
+C:\Users\taqua\OneDrive\Programming Project\C-Sharp\DiemHocSinh\bin\Debug\net5.0\DiemHocSinh.runtimeconfig.json
+C:\Users\taqua\OneDrive\Programming Project\C-Sharp\DiemHocSinh\bin\Debug\net5.0\DiemHocSinh.runtimeconfig.dev.json
+C:\Users\taqua\OneDrive\Programming Project\C-Sharp\DiemHocSinh\bin\Debug\net5.0\DiemHocSinh.dll
+C:\Users\taqua\OneDrive\Programming Project\C-Sharp\DiemHocSinh\bin\Debug\net5.0\ref\DiemHocSinh.dll
+C:\Users\taqua\OneDrive\Programming Project\C-Sharp\DiemHocSinh\bin\Debug\net5.0\DiemHocSinh.pdb
+C:\Users\taqua\OneDrive\Programming Project\C-Sharp\DiemHocSinh\obj\Debug\net5.0\DiemHocSinh.dll
+C:\Users\taqua\OneDrive\Programming Project\C-Sharp\DiemHocSinh\obj\Debug\net5.0\ref\DiemHocSinh.dll
+C:\Users\taqua\OneDrive\Programming Project\C-Sharp\DiemHocSinh\obj\Debug\net5.0\DiemHocSinh.pdb
+C:\Users\taqua\OneDrive\Programming Project\C-Sharp\DiemHocSinh\obj\Debug\net5.0\DiemHocSinh.genruntimeconfig.cache
