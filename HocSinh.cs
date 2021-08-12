@@ -9,7 +9,9 @@ namespace DiemSinhVien
     class SinhVien
     {
         string HoTen;
-        float DiemVan, DiemToan;
+        float DiemVan, 
+        DiemToan,
+        DiemTiengAnh;
         public static string Truong = "BVU";
         public SinhVien() // Hàm khởi tạo mặc định
         {
