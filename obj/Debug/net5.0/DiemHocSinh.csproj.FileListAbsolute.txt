@@ -30,3 +30,19 @@ C:\Users\taqua\OneDrive\Programming Project\C-Sharp\DiemHocSinh\obj\Debug\net5.0
 C:\Users\taqua\OneDrive\Programming Project\C-Sharp\DiemHocSinh\obj\Debug\net5.0\ref\DiemHocSinh.dll
 C:\Users\taqua\OneDrive\Programming Project\C-Sharp\DiemHocSinh\obj\Debug\net5.0\DiemHocSinh.pdb
 C:\Users\taqua\OneDrive\Programming Project\C-Sharp\DiemHocSinh\obj\Debug\net5.0\DiemHocSinh.genruntimeconfig.cache
+D:\GitHub\SendToTeacher\QuanLyDiemCuaHocSinh\obj\Debug\net5.0\DiemHocSinh.csproj.AssemblyReference.cache
+D:\GitHub\SendToTeacher\QuanLyDiemCuaHocSinh\obj\Debug\net5.0\DiemHocSinh.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub\SendToTeacher\QuanLyDiemCuaHocSinh\obj\Debug\net5.0\DiemHocSinh.AssemblyInfoInputs.cache
+D:\GitHub\SendToTeacher\QuanLyDiemCuaHocSinh\obj\Debug\net5.0\DiemHocSinh.AssemblyInfo.cs
+D:\GitHub\SendToTeacher\QuanLyDiemCuaHocSinh\obj\Debug\net5.0\DiemHocSinh.csproj.CoreCompileInputs.cache
+D:\GitHub\SendToTeacher\QuanLyDiemCuaHocSinh\bin\Debug\net5.0\DiemHocSinh.exe
+D:\GitHub\SendToTeacher\QuanLyDiemCuaHocSinh\bin\Debug\net5.0\DiemHocSinh.deps.json
+D:\GitHub\SendToTeacher\QuanLyDiemCuaHocSinh\bin\Debug\net5.0\DiemHocSinh.runtimeconfig.json
+D:\GitHub\SendToTeacher\QuanLyDiemCuaHocSinh\bin\Debug\net5.0\DiemHocSinh.runtimeconfig.dev.json
+D:\GitHub\SendToTeacher\QuanLyDiemCuaHocSinh\bin\Debug\net5.0\DiemHocSinh.dll
+D:\GitHub\SendToTeacher\QuanLyDiemCuaHocSinh\bin\Debug\net5.0\DiemHocSinh.pdb
+D:\GitHub\SendToTeacher\QuanLyDiemCuaHocSinh\obj\Debug\net5.0\DiemHocSinh.dll
+D:\GitHub\SendToTeacher\QuanLyDiemCuaHocSinh\obj\Debug\net5.0\refint\DiemHocSinh.dll
+D:\GitHub\SendToTeacher\QuanLyDiemCuaHocSinh\obj\Debug\net5.0\DiemHocSinh.pdb
+D:\GitHub\SendToTeacher\QuanLyDiemCuaHocSinh\obj\Debug\net5.0\DiemHocSinh.genruntimeconfig.cache
+D:\GitHub\SendToTeacher\QuanLyDiemCuaHocSinh\obj\Debug\net5.0\ref\DiemHocSinh.dll

@@ -22,35 +22,30 @@ namespace DiemSinhVien
         public float getDiemTiengAnh() { return this.DiemTiengAnh; }
 
         public static string Truong = "BVU";
-        public HocSinh() // Hàm khởi tạo mặc định
-        {
+        public string getTruong() { return Truong; }
+        public HocSinh() {// Hàm khởi tạo mặc định
             HoTen = "NoName";
             DiemVan = 0;
             DiemToan= 0;
             DiemTiengAnh = 0;
         }
         public HocSinh(
-            string HoTen, float DiemVan, float DiemToan, float DiemTiengAnh)
-        {
+            string HoTen, float DiemVan, float DiemToan, float DiemTiengAnh){
             this.HoTen = HoTen;
             this.DiemVan = DiemVan;
             this.DiemToan = DiemToan;
-            this.DiemTiengAnh = 0;
+            this.DiemTiengAnh = DiemTiengAnh;
         }
-        public HocSinh(string HoTen)
-        {
+        public HocSinh(string HoTen){
             this.HoTen = HoTen;
         }
-        public HocSinh(float DiemVan)
-        {
+        public HocSinh(float DiemVan){
             this.DiemVan = DiemVan;
         }
-        public HocSinh(float DiemToan, int a = 1)
-        {
+        public HocSinh(float DiemToan, int i = 1){
             this.DiemToan = DiemToan;
         }
-        public void Nhap()
-        {
+        public void NhapThongTin()        {
             Console.WriteLine("Nhập tên sinh viên: ");
             HoTen = Console.ReadLine();
             Console.WriteLine("Nhập điểm Văn: ");
@@ -58,7 +53,7 @@ namespace DiemSinhVien
             Console.WriteLine("Nhập điểm Toán: ");
             DiemToan = float.Parse(Console.ReadLine());
         }
-        public void Xuat()
+        public void XuatThongTin()
         {
             Console.Write("Tên: " + HoTen);
             Console.Write("Điểm Văn: " + DiemVan);
