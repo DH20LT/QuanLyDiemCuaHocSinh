@@ -6,28 +6,46 @@ using System.Threading.Tasks;
 
 namespace DiemSinhVien
 {
-    class SinhVien
+    class HocSinh
     {
         string HoTen;
+        public void setHoTen(string HoTen) { this.HoTen = HoTen; }
+        public string getHoTen() { return this.HoTen; }
         float DiemVan, 
         DiemToan,
         DiemTiengAnh;
+        public void setDiemVan(float DiemVan) { this.DiemVan = DiemVan; }
+        public void setDiemToan(float DiemToan) { this.DiemToan = DiemToan; }
+        public void setDiemTiengAnh(float DiemTiengAnh) { this.DiemTiengAnh = DiemTiengAnh; }
+        public float getDiemVan() { return this.DiemVan; }
+        public float getDiemToan() { return this.DiemToan; }
+        public float getDiemTiengAnh() { return this.DiemTiengAnh; }
+
         public static string Truong = "BVU";
-        public SinhVien() // Hàm khởi tạo mặc định
+        public HocSinh() // Hàm khởi tạo mặc định
         {
             HoTen = "NoName";
             DiemVan = 0;
             DiemToan= 0;
+            DiemTiengAnh = 0;
         }
-        public SinhVien(string HoTen)
+        public HocSinh(
+            string HoTen, float DiemVan, float DiemToan, float DiemTiengAnh)
+        {
+            this.HoTen = HoTen;
+            this.DiemVan = DiemVan;
+            this.DiemToan = DiemToan;
+            this.DiemTiengAnh = 0;
+        }
+        public HocSinh(string HoTen)
         {
             this.HoTen = HoTen;
         }
-        public SinhVien(float DiemVan)
+        public HocSinh(float DiemVan)
         {
             this.DiemVan = DiemVan;
         }
-        public SinhVien(float DiemToan, int a = 1)
+        public HocSinh(float DiemToan, int a = 1)
         {
             this.DiemToan = DiemToan;
         }
@@ -47,22 +65,7 @@ namespace DiemSinhVien
             Console.Write("Điểm Toán: " + DiemToan);
             Console.Write("Trường: " + Truong);
         }
-        public string LayTen()
-        {
-            return HoTen;
-        }
-        public float LayVan()
-        {
-            return DiemVan;
-        }
-        public float LayToan()
-        {
-            return DiemToan;
-        }
-        public void GanTen()
-        {
-
-        }
+        
         public float DiemTrungBinh()
         {
             float diemTB = (DiemVan + DiemToan) / 2;
