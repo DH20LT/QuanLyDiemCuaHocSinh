@@ -21,15 +21,15 @@ namespace DiemSinhVien
                         break;
                     case 1: {// Tạo Học Sinh và Nhập Thông Tin
                         LuongHS++;
-                        //create an object of class HocSinh
-                        HocSinh hs1 = new HocSinh();
-                        arrHS[LuongHS] = hs1;
-                        hs1.NhapThongTin();
+                        arrHS[LuongHS] = new HocSinh();
+                        arrHS[LuongHS].NhapThongTin();
                         Program.Programming(arrHS);
                         break;
                     }
                     case 2: {// Hiện tất cả Học Sinh
-                        for (int i = 0; i < LuongHS; i++)
+                        Console.WriteLine("Điểm Của Học Sinh");
+                        Console.WriteLine(LuongHS);
+                        for (int i = 1; i <= LuongHS; i++)
                         {
                             arrHS[i].XuatThongTin();
                         }
@@ -45,12 +45,12 @@ namespace DiemSinhVien
         }
         static void Main(string[] args)
         {
-            Console.OutputEncoding = Encoding.UTF8;
-            Console.InputEncoding = Encoding.UTF8;
+            Console.OutputEncoding = Encoding.Unicode;
+            Console.InputEncoding = Encoding.Unicode;
             Console.WriteLine("Nhập Lượng Học Sinh");
             int n = int.Parse(Console.ReadLine());
-            HocSinh[] arrHS = new HocSinh[n];
             
+            HocSinh[] arrHS = new HocSinh[n];
             Programming(arrHS);
         }
     }

@@ -7,19 +7,20 @@ using System.Threading.Tasks;
 namespace DiemSinhVien
 {
     class HocSinh
-    {
+    {   
+        
         string HoTen;
         public void setHoTen(string HoTen) { this.HoTen = HoTen; }
         public string getHoTen() { return this.HoTen; }
-        float DiemVan, 
+        double DiemVan, 
         DiemToan,
         DiemTiengAnh;
-        public void setDiemVan(float DiemVan) { this.DiemVan = DiemVan; }
-        public void setDiemToan(float DiemToan) { this.DiemToan = DiemToan; }
-        public void setDiemTiengAnh(float DiemTiengAnh) { this.DiemTiengAnh = DiemTiengAnh; }
-        public float getDiemVan() { return this.DiemVan; }
-        public float getDiemToan() { return this.DiemToan; }
-        public float getDiemTiengAnh() { return this.DiemTiengAnh; }
+        public void setDiemVan(double DiemVan) { this.DiemVan = DiemVan; }
+        public void setDiemToan(double DiemToan) { this.DiemToan = DiemToan; }
+        public void setDiemTiengAnh(double DiemTiengAnh) { this.DiemTiengAnh = DiemTiengAnh; }
+        public double getDiemVan() { return this.DiemVan; }
+        public double getDiemToan() { return this.DiemToan; }
+        public double getDiemTiengAnh() { return this.DiemTiengAnh; }
 
         public static string Truong = "BVU";
         public string getTruong() { return Truong; }
@@ -52,37 +53,43 @@ namespace DiemSinhVien
             DiemVan = float.Parse(Console.ReadLine());
             Console.WriteLine("Nhập điểm Toán: ");
             DiemToan = float.Parse(Console.ReadLine());
+            Console.WriteLine("Nhập điểm Tiếng Anh: ");
+            DiemTiengAnh = float.Parse(Console.ReadLine());
         }
         public void XuatThongTin()
         {
-            Console.Write("Tên: " + HoTen);
-            Console.Write("Điểm Văn: " + DiemVan);
-            Console.Write("Điểm Toán: " + DiemToan);
-            Console.Write("Trường: " + Truong);
+            Console.WriteLine("Tên: " + HoTen);
+            Console.WriteLine("Điểm Văn: " + DiemVan);
+            Console.WriteLine("Điểm Toán: " + DiemToan);
+            Console.WriteLine("Điểm Tiếng Anh: " + DiemTiengAnh);
+            Console.WriteLine("Điểm Trung Bình: " + this.DiemTrungBinh());
+            Console.WriteLine("Trường: " + Truong);
+            XepLoai();
+            Console.WriteLine("----------------------------------");
         }
         
-        public float DiemTrungBinh()
+        public double DiemTrungBinh()
         {
-            float diemTB = (DiemVan + DiemToan) / 2;
-            return diemTB; // quyết định kiểu dữ liệu của phương thức..
+            double diemTB = (DiemVan + DiemToan + DiemTiengAnh) / 3;
+            return Math.Round(diemTB, 2);
         }
         public void XepLoai()
         {
             if (DiemTrungBinh() >= 8)
             {
-                Console.Write("Sinh viên xếp loại: Giỏi");
+                Console.WriteLine("Sinh viên xếp loại: Giỏi");
             }
             else if (DiemTrungBinh() >= 7)
             {
-                Console.Write("Sinh viên xếp loại: Khá");
+                Console.WriteLine("Sinh viên xếp loại: Khá");
             }
             else if (DiemTrungBinh() >= 5)
             {
-                Console.Write("Sinh viên xếp loại: Trung Bình");
+                Console.WriteLine("Sinh viên xếp loại: Trung Bình");
             }
             else
             {
-                Console.Write("Sinh viên xếp loại: Yếu");
+                Console.WriteLine("Sinh viên xếp loại: Yếu");
             }
         }
     }
